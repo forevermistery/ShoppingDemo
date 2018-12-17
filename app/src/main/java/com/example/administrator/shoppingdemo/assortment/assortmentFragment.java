@@ -16,6 +16,7 @@ public class assortmentFragment extends baseFragment {
         textView=new TextView(context);
         textView.setGravity(Gravity.CENTER);
         textView.setTextSize(25);
+        textView.setText("分类");
         return textView;
     }
 

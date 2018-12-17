@@ -16,6 +16,7 @@ public class userFragment extends baseFragment {
         textView=new TextView(context);
         textView.setGravity(Gravity.CENTER);
         textView.setTextSize(25);
+        textView.setText("用户中心");
         return textView;
     }
 
